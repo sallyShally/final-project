@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  height: auto;
+  background-color:#ede4e0;
+  min-height: 850px;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.changingDiv{
+  width: 100%;
+  min-height: 700px;
+  
+}
+
+.signUpDiv{
+  display: none;
+}
+
+.emptyDiv{
+  height: 100px;
+}

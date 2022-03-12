@@ -1,0 +1,38 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#myMedia{
+    width: 100%;
+    height: 800px;
+    background-image: url("/public/images/young.jpg");
+    background-size: 100% 100%;
+    /* background-position: 1450px 0px; */
+    animation:media ease-in-out 40s infinite;
+  } 
+
+ 
+  @keyframes media{
+    0%{
+        background-image: url("/public/images/young.jpg");
+    }
+  
+    25%{
+        background-image: url("/public/images/hand-love-heart.jpg");
+    }
+  
+    50%{
+        background-image: url("/public/images/woman-working.jpg");
+    }
+    75%{
+        background-image: url("/public/images/leaf.jpg");
+    }
+  
+    100%{
+         background-image: url("/public/images/young.jpg"); 
+    }
+    
+} 

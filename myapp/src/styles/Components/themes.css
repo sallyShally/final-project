@@ -1,0 +1,72 @@
+
+
+.themes{
+  width:100%;
+}
+
+.themes .themesTitle{
+  margin: auto;
+  border-bottom-style: outset;
+  margin-top: 15%;
+  font-family: 'Dancing script', cursive;
+}
+
+.themes .galleryWithnoclick img{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 3%;
+  }
+  
+ 
+  .divAroundgallery{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.350) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20%;
+   margin-bottom: 20%;
+  }
+  .divAroundParag{
+    font-family: 'Lora';
+    font-size: 1.2rem;
+    margin-top: 10%;
+    width: 40%;
+  }
+
+  .themes .galleryWithnoclick{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 70%;
+   transform: rotate(-45deg); 
+  }
+  
+
+@media only screen and (min-width: 1000px) {
+  /* For desktop: */
+  .themes .galleryWithnoclick {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 3%;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+   width:50%;
+   height: auto;
+   transform: rotate(-45deg); 
+    position: relative;
+   z-index: 2;
+ 
+  }
+  .divAroundgallery{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.350) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+   margin-bottom: 20%;
+  }
+}
+  

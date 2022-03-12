@@ -1,0 +1,156 @@
+
+.Navbar1 , .Navbar2{
+  position:fixed;
+  z-index:5;
+}
+
+.Navbar1 .pagesItemsUl1 {
+  margin-top: 150px;
+}
+
+.Navbar1 .pagesItemsUl1  li{  
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    border-radius:50%;
+    justify-content: center; 
+    border-style:double;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;  
+    margin-left: 10px;
+  }
+  
+  
+  .Navbar1 .pagesItemsUl1  li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: medium;
+    
+  }
+  
+  .Navbar1 .pagesItemsUl1  li:hover{
+    width: 150px;;
+    border-radius: 10px 100px / 120px;
+  }
+  
+  
+  .Navbar2 {
+   border-style:ridge;
+   background-color: #EDE4E0;
+   height: 100px;
+   width: 100%;
+   display: flex;
+   justify-content:  space-between;
+  
+  }
+  
+  .Navbar2 .allItems2{
+    display: flex;
+    justify-content:  space-between;
+    width: 100%;
+    align-items: center;
+    margin: 2%;
+  }
+  .Navbar2 .allItems2 .pagesItemsUl2{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar2 .pagesItemsUl2  li {
+    list-style: none;
+    margin-top: 10px;
+    justify-content: center;
+    border: 2px ridge;
+    margin-right: 15px;
+    width: 70px;
+  }
+  
+  .Navbar2 .pagesItemsUl2 li a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Lora', cursive;
+    font-weight:bold;
+    font-size: 1.2rem;
+  
+  }
+  
+ .headerOfWeb h1{
+  font-family: 'Dancing Script', cursive;
+  font-size:5vw;
+ }
+
+
+
+.AskNav .allItems .pagesItemsUl {
+  display: flex;
+}
+
+.divAroundAll ul {
+  list-style: none;
+}
+
+.divAroundAll .IconsUl{
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
+ .divAroundAll .IconsUl  .optionUl {
+  width: 120px;
+  background-color: white; 
+  margin-top: 20px;
+  border-radius: 5px;
+  position: absolute;
+  
+   
+}
+
+.divAroundAll .IconsUl .divAroundIcons{
+  display: flex;
+}
+
+.askPage{
+  min-height: 100vh;
+     
+ }
+ 
+ .askNavDiv{
+     width: 100%;
+     height: 120px;
+     
+     
+ }
+ .askNavDiv  .Ulnames{
+    
+     height: 100%;
+     display: flex;
+     list-style: none;
+     margin-left: 200px;
+     font-family: 'Lora';
+     color: black;
+     font-size: 1.3rem;
+ }
+ 
+ .askNavDiv .Ulnames #myLi{
+     
+     margin-top: 25px;
+     margin-right: 30px;  
+     width: 170px; 
+ }
+ 
+ .askNavDiv .optionUl li{
+     list-style: none;
+     height: 25px;
+     font-size: 1.1rem;
+     background-color:white;
+     border-style: groove;
+     
+ }
+ 
+ 
+ 
+   
+ 

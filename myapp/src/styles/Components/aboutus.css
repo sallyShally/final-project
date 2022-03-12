@@ -1,0 +1,31 @@
+.DivAroundAll{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.aboutusDiv{
+    font-size: 1.3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    color: black;
+    font-family: 'Lora', cursive;
+}
+
+.aboutusDiv h1{
+    margin-top: 80px;
+    border-bottom-style: outset;
+    font-family: 'Dancing Script', cursive;  
+}
+
+.Link{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', cursive;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border: double;
+    padding: 80px;
+    
+    
+}
+

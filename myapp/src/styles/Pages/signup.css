@@ -1,0 +1,112 @@
+
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+  }
+  .login::before{
+    background-image: url("/public/images/cloudsAndwater.jpg");
+    background-size:cover;
+    position: absolute;
+    display: block;
+    content: ' ';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+  }
+
+  .loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    position: relative;
+  }
+  
+  .loginLeft,
+  .loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+ 
+  
+  .loginDesc {
+    font-style: italic;
+    font-weight: bold;
+    height: 500px;
+    border-radius: 50%;
+    color: azure;
+    margin-top: 100px;
+  }
+  
+  .loginBox{
+      height: 400px;
+      padding: 20px;
+      background-color: transparent;
+      border-bottom: 1px solid gray;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow:0 5px 30px black;
+     
+  }
+  
+  .loginInput{
+      border: none;
+      height: 50px;
+      background-color: transparent;
+      border-bottom: 1px solid black;
+      font-size: 18px;
+      padding-left: 20px;
+      
+  }
+   ::placeholder {
+       color: black;
+   }
+  
+   
+ .loginInput:focus{
+    
+      border-bottom: 2px solid black;
+      font-size: 20px;
+      font-weight: bold;
+  } 
+  
+  .loginButton{
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: #b5d5da;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  
+  .loginForgot{
+      text-align: center;
+      color: black;
+  }
+  
+  .loginRegisterButton{
+      width: 60%;
+      align-self: center;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  

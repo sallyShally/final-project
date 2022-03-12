@@ -1,0 +1,27 @@
+.footer {
+    background-color: #EDE4E0;
+    width: 100%;
+    border-top: ridge;
+    border-bottom: ridge;
+   }
+   
+
+   .footer .allItems .pagesItemsUl{
+     display: flex;
+     justify-content: center;  
+   }
+   
+   .footer .pagesItemsUl li {
+     list-style: none;
+     margin-top: 10px;
+     width: 5%; 
+   }
+   
+   .footer .pagesItemsUl li a{
+     text-decoration: none;
+     color:black;
+   } 
+
+   .footer h1{
+    font-family: 'Dancing Script', cursive;
+   }

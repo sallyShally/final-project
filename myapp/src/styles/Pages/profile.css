@@ -1,0 +1,51 @@
+
+
+.divAroundProfile{
+    width: 70%;
+    /* height: 500px; */
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    box-shadow:0 5px 30px black;
+    background-image: url("/public/images/you.jpg");
+    background-size:450px 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:end
+    
+}
+h1{
+    margin-bottom: 50px;
+    font-family: 'Lora'; 
+    margin-right:300px;
+}
+
+#nicknameProfile ,#usernameProfile,  #passwordProfile{
+    border: none;
+    height: 50px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-left: 100px;
+    font-family: 'Lora';
+    width: 300px
+}
+label{
+    font-size: 18px;
+    font-family: 'Lora';  
+}
+#profileSubmit{
+    margin-top: 30px;
+    margin-left:300px;
+    width:100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #b5d5da;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Lora'; 
+}
